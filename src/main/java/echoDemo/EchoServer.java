@@ -32,7 +32,7 @@ public class EchoServer {
                     }
                 });
 
-        System.out.println("Echo 服务器启动ing");
+        System.out.println("Echo 服务器启动inglallala");
         //绑定端口，同步等待
         ChannelFuture channelFuture = serverBootstrap.bind(port).sync();
 
