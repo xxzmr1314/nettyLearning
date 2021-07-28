@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3638c245-159a-494f-a667-ea9a78f6bd60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/echoDemo/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/echoDemo/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/echoDemo/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/echoDemo/channel关系.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/echoDemo/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/echoDemo/EchoServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/echoDemo/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/echoDemo/EchoServerHandler.java" afterDir="false" />
     </list>
@@ -45,10 +50,58 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/echoDemo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/echoDemo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="echoDemo.EchoClient" />
+      <module name="xd-netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="echoDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="echoDemo.EchoServer" />
+      <module name="xd-netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="echoDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="xd-netty" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -72,7 +125,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624359039474</updated>
-      <workItem from="1624359047688" duration="1436000" />
+      <workItem from="1624359047688" duration="22864000" />
+      <workItem from="1626173950951" duration="9677000" />
     </task>
     <task id="LOCAL-00001" summary="netty学习">
       <created>1624360077648</created>
@@ -96,13 +150,88 @@
       <screen x="1440" y="-124" width="1920" height="1080" />
     </state>
     <state x="2000" y="81" key="#Project_Structure/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1624359074077" />
-    <state x="2213" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1624359711106">
+    <state x="2213" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1624447110351">
       <screen x="1440" y="-124" width="1920" height="1080" />
     </state>
-    <state x="2213" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1624359711106" />
+    <state x="2213" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1624447110351" />
     <state x="2011" y="18" key="CommitChangelistDialog2" timestamp="1624360077505">
       <screen x="1440" y="-124" width="1920" height="1080" />
     </state>
     <state x="2011" y="18" key="CommitChangelistDialog2/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1624360077505" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom" timestamp="1626070272520">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625227472366" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626070272520" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.23.1440.800/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625194942545" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center" timestamp="1626070272519">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625227472364" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1626070272519" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.23.1440.800/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625194942544" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left" timestamp="1626070272518">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625227472363" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1626070272518" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.23.1440.800/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625194942543" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right" timestamp="1626070272519">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625227472365" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1626070272519" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.23.1440.800/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625194942544" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1626070272522">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625196190817" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626070272522" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.23.1440.800/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625194942680" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1626070272521">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625196190816" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1626070272521" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.23.1440.800/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625194942679" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1626070272520">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625196190816" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1626070272520" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.23.1440.800/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625194942679" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1626070272521">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625196190817" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1626070272521" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.23.1440.800/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1625194942680" />
+    <state x="2232" y="134" key="RollbackChangesDialog" timestamp="1624676791460">
+      <screen x="1440" y="-124" width="1920" height="1080" />
+    </state>
+    <state x="2232" y="134" key="RollbackChangesDialog/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1624676791460" />
+    <state x="2065" y="117" key="search.everywhere.popup" timestamp="1626693408422">
+      <screen x="1440" y="-124" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="117" key="search.everywhere.popup/0.0.1440.900/1440.-124.1920.1080@1440.-124.1920.1080" timestamp="1626693408422" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/xd_netty$test.ic" NAME="test Coverage Results" MODIFIED="1625195088581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
